@@ -1,0 +1,38 @@
+{
+  "name": "micro-crud",
+  "version": "1.0.0",
+  "description": "Microservices, CRUD with MongoDB and Mongoose",
+  "main": "index.js",
+  "now": {
+    "name": "micro-crud",
+    "alias": "micro-crud.now.sh"
+  },
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev --ignore models/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jairperezpowered/micro-curd.git"
+  },
+  "keywords": [
+    "crud",
+    "micro",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "Jair Pérez Powered",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jairperezpowered/micro-curd/issues"
+  },
+  "homepage": "https://github.com/jairperezpowered/micro-curd#readme",
+  "dependencies": {
+    "fs-router": "^0.4.1",
+    "micro": "^9.3.2",
+    "mongoose": "^5.2.6"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
+  }
+}
