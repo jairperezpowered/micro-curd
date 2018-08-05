@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Microservices, CRUD with MongoDB and Mongoose",
   "main": "index.js",
+  "now": {
+    "name": "micro-crud",
+    "alias": "micro-crud.now.sh"
+  },
   "scripts": {
     "start": "micro",
     "dev": "micro-dev --ignore models/"
